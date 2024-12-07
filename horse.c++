@@ -142,7 +142,7 @@ void run()
 	scanf("%d,%d", &x, &y);
 	if (!in(x, y))
 	{
-		printf("\n\n坐标输入错误！！！！\n\n");
+		printf("\n\n坐标输入错误！！！\n\n");
 		return;
 	}
 	printf("\n");
