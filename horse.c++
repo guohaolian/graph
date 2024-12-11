@@ -1,3 +1,4 @@
+//马踏棋盘
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>	 // 包含标准库头文件
