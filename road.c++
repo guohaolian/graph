@@ -44,7 +44,8 @@ void dijkstra(Graph *graph, int start)
 {
     int dist[MAX_VERTICES];          // 存储最短距离
     int visited[MAX_VERTICES] = {0}; // 标记节点是否已经访问
-    int num_vertices = graph->num_vertices;
+
+    int num_vertices = graph->num_vertices; // 获取图中的顶点数量
 
     // 初始化dist数组，源点的距离为0，其他节点的距离为INF
     for (int i = 0; i < num_vertices; i++)
